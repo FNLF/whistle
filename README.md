@@ -23,7 +23,7 @@ All files used in the application shall be publicly available:
 * The backend, whistle-backend
 * Relevant configuration files from the server
 
-By doing so one can label the backend as unsecure, but all files used to build the client are publicly available both via http on the application server and this repository. Hence the integrity of the files used by the browser can be verified, either by the user or by using 3rd party online tools.
+By doing so one can label the backend as unsecure, but all files used to build the in browser client are publicly available both via http on the application server and this repository. Hence the integrity of the files used by the browser can be verified, either by the user or by using 3rd party online tools.
 
 The server the application runs on shall not be in control of the developers or any organisation which the reporter is inclined to report on. Instead an agreement/contract between the organisation(s) and the 3rd party provider shall be made and also be publicly available.
 
