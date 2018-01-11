@@ -1,0 +1,35 @@
+<div *ngIf="dataready">
+<p>
+  JAN KEYS:
+</p>
+<p class="small">{{ jan.privateKeyArmored }}</p>
+<p>{{ jan.publicKeyArmored }}</p>
+<hr>
+<p>
+  ANON KEYS:
+</p>
+<p>{{ anon.privateKeyArmored }}</p>
+<p>{{ anon.publicKeyArmored }}</p>
+<hr>
+<p>
+  ORIGINAL PLAINTEXT MESSAGE:
+</p>
+<p>{{ msg }}</p>
+<hr>
+<p>
+  MESSAGE ENCRYPTED BY ANON:
+</p>
+<p>{{ anonEncryptedMsg }}</p>
+<hr>
+<p>
+  DECRYPTED BY JAN:
+</p>
+<p>{{ janDecryptedMsg }}</p>
+<hr>
+<p>THE URL</p>
+<p>{{ forurl }}</p>
+<p>FROM URL</p>
+<p>{{ fromurl }}</p>
+<p>FROM URL PORPERTY</p>
+<p>{{ fromurlTest }}</p>
+</div>
